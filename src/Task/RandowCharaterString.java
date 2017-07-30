@@ -1,11 +1,8 @@
 package Task;
 import java.lang.Math;
-import java.util.List;
 
 public class RandowCharaterString {
 	private static String string = "abcdefghijklmnopqrstuvwxyz";
-	private static List userid;
-	
 	private static int getRandom(int count) {
 		return (int) Math.round(Math.random()*count);
 	}

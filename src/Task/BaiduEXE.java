@@ -5,8 +5,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.openqa.selenium.*;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import java.util.List;
 import java.util.Iterator;

@@ -35,12 +35,18 @@ public class AddUpdateDelete_ManageSystem {
 		driver.switchTo().frame("code").findElement(By.xpath("//*[@id='2']/td/span/span")).click();
 		driver.switchTo().defaultContent();
 
-		String userID=Add();
-		System.out.println("Added new user: " + userID);
+		//String userID=Add();
+		//System.out.println("Added new user: " + userID);
 
-		System.out.println("Updated new user:  " + Update(userID) + "  successfully!!");
+		//System.out.println("Updated new user:  " + Update(userID) + "  successfully!!");
 
-		System.out.println("Deleted new user:  " + Delete(userID) + "   successfully!!");
+		//System.out.println("Deleted new user:  " + Delete(userID) + "   successfully!!");
+	}
+	
+	public void locateSpan() {
+		driver.switchTo().frame("main").findElement(By.cssSelector("span[class='menu-selected-item']+span")).click();
+		driver.switchTo().defaultContent();
+		System.out.println("tesst");
 	}
 
 	public String Add() {

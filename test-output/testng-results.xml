@@ -1,25 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="31266" started-at="2013-12-26T16:31:00Z" finished-at="2013-12-26T16:31:31Z">
+  <suite name="Default suite" duration-ms="12389" started-at="2017-07-30T06:11:35Z" finished-at="2017-07-30T06:11:47Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="31266" started-at="2013-12-26T16:31:00Z" finished-at="2013-12-26T16:31:31Z">
-      <class name="Task.Homework20170723">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:Task.Homework20170723@9c4703]" name="beforeClass" is-config="true" duration-ms="1558" started-at="2013-12-27T00:31:00Z" finished-at="2013-12-27T00:31:01Z">
+    <test name="Default test" duration-ms="12389" started-at="2017-07-30T06:11:35Z" finished-at="2017-07-30T06:11:47Z">
+      <class name="Tasks20170730.BaiDuDataProvider">
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="beforeMethod" is-config="true" duration-ms="1753" started-at="2017-07-30T14:11:35Z" finished-at="2017-07-30T14:11:36Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="Operate()[pri:0, instance:Task.Homework20170723@9c4703]" name="Operate" duration-ms="25398" started-at="2013-12-27T00:31:01Z" finished-at="2013-12-27T00:31:26Z">
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="f" duration-ms="1152" started-at="2017-07-30T14:11:36Z" data-provider="dp" finished-at="2017-07-30T14:11:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[selenium]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Operate -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:Task.Homework20170723@9c4703]" name="afterClass" is-config="true" duration-ms="4300" started-at="2013-12-27T00:31:26Z" finished-at="2013-12-27T00:31:31Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="afterMethod" is-config="true" duration-ms="3440" started-at="2017-07-30T14:11:38Z" finished-at="2017-07-30T14:11:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- Task.Homework20170723 -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="beforeMethod" is-config="true" duration-ms="1354" started-at="2017-07-30T14:11:41Z" finished-at="2017-07-30T14:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="f" duration-ms="1135" started-at="2017-07-30T14:11:42Z" data-provider="dp" finished-at="2017-07-30T14:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[other]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:Tasks20170730.BaiDuDataProvider@11ee8dd]" name="afterMethod" is-config="true" duration-ms="3514" started-at="2017-07-30T14:11:44Z" finished-at="2017-07-30T14:11:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- Tasks20170730.BaiDuDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
