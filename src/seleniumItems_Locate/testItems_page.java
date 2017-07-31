@@ -1,4 +1,4 @@
-package Task;
+package seleniumItems_Locate;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -17,7 +17,7 @@ import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 
-public class TestFanpage {
+public class testItems_page {
     private WebDriver driver;
     private String baseUrl;
     private String Username = "xinyuan_7625@163.com";

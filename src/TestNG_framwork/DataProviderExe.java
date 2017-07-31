@@ -1,5 +1,4 @@
-package Tasks20170730;
-
+package TestNG_framwork;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -7,11 +6,10 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
-
 import java.util.concurrent.TimeUnit;
 
 
-public class BaiDuDataProvider {
+public class DataProviderExe {
     private WebDriver driver;
     private String baseUrl;
 

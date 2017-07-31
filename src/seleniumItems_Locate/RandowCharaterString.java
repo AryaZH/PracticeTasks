@@ -1,4 +1,4 @@
-package Task;
+package seleniumItems_Locate;
 import java.lang.Math;
 
 public class RandowCharaterString {

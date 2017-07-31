@@ -1,4 +1,4 @@
-package Tasks20170730;
+package TestNG_framwork;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 import java.util.concurrent.TimeUnit;
 
 
-public class JavaScript {
+public class JavaScriptEXE {
     private WebDriver driver;
     
     @BeforeClass

@@ -1,12 +1,12 @@
-package Task;
+package seleniumItems_Locate;
 
 import java.util.ArrayList;
 import java.util.Random;
 
 
-public class RandomEXE {
+public class RandomNumbersGenerate {
 	public static void main(String[] args){
-		ArrayList<Integer> list = new RandomEXE().DiffNum(100);
+		ArrayList<Integer> list = new RandomNumbersGenerate().DiffNum(100);
 		System.out.print(list);
 	}
 	

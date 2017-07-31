@@ -1,4 +1,4 @@
-package Task;
+package seleniumItems_Locate;
 
 import java.util.concurrent.TimeUnit;
 import org.testng.annotations.AfterClass;
@@ -16,9 +16,9 @@ public class BaiduEXE {
 
   @BeforeClass
   public void setUp() throws Exception {
-   // driver = new FirefoxDriver();
+   //driver = new FirefoxDriver();
 	 driver = new InternetExplorerDriver();
-	//  driver = new ChromeDriver();
+	//driver = new ChromeDriver();
     baseUrl = "https://www.baidu.com/";
     driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     driver.manage().window().maximize();
@@ -38,7 +38,6 @@ public class BaiduEXE {
     }
   }
  
-
   @Test
   public void GetLinks2() throws Exception {
 	driver.get(baseUrl);
@@ -54,7 +53,6 @@ public class BaiduEXE {
 
   @AfterClass
   public void tearDown() throws Exception {
-    //driver.quit();
-    
+    driver.quit();
     }
 }
