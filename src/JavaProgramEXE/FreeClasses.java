@@ -28,7 +28,7 @@ public class FreeClasses {
 		driver.findElement(By.cssSelector("li#nav3 a")).click();
 		List<WebElement> ulList = driver.findElements(By.cssSelector(".openClassBox li"));
 		for(WebElement li : ulList) {
-			System.out.print(li.findElement(By.className("class_top1")).getText()+ ":"+"           "+"\n");
+			System.out.print(li.findElement(By.className("class_top1")).getText()+ ":    ");
 			System.out.print(li.findElement(By.cssSelector(".class_top5 a")).getAttribute("href")+"\n\n");
 		}	
 	    driver.quit();
