@@ -23,17 +23,6 @@ public class Action {
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
-	
-	/*1、 Qunar机票搜索场景
-
-	1) 访问Qunar机票首页http://flight.qunar.com，选择“单程”，输入出发、到达城市，
-	选择today+7日后的日期，
-	        点“搜索”，跳转到机票单程搜索列表页。
-	2) 在列表页停留1分钟，至到页面上出现“搜索结束”。
-	3) 如果出现航班列表，对于出现“每段航班均需缴纳税费”的行随机点选“订票”按钮，
-	         在展开的列表中会出现“第一程”、 “第二程”；对于没有出现“每段航班均需缴纳税费”的行随机点选“订票”按钮，
-	         在展开的列表底部中会出现“报价范围”
-	4) 如果不出现航班列表，则页面会出现“该航线当前无可售航班”*/
 
 	@Test
 	 public void Qunar() throws Exception{
@@ -42,10 +31,10 @@ public class Action {
 		driver.findElement(By.id("searchTypeSng")).click();
 		
 		driver.findElement(By.name("fromCity")).clear();
-		driver.findElement(By.name("fromCity")).sendKeys("北京");
+		driver.findElement(By.name("fromCity")).sendKeys("锟斤拷锟斤拷");
 		
 		driver.findElement(By.name("toCity")).clear();
-		driver.findElement(By.name("toCity")).sendKeys("上海");
+		driver.findElement(By.name("toCity")).sendKeys("锟较猴拷");
 		
 		Date now = new Date();
 	    DateFormat d = DateFormat.getDateTimeInstance(); 
