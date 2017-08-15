@@ -2,8 +2,7 @@
 <suite name="Suite" parallel="false">
   <test name="Test">
     <classes>
-      <class name="cn.testfan.FreeClasses"/>
-      <class name="TestNG_framwork.JavaScriptEXE"/>
+      <class name="TestAnt.BuildAnt"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

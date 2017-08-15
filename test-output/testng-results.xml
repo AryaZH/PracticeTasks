@@ -1,87 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="1" total="5" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="32367" started-at="2017-07-31T03:18:26Z" finished-at="2017-07-31T03:18:58Z">
+  <suite name="Suite" duration-ms="30" started-at="2017-08-13T17:43:02Z" finished-at="2017-08-13T17:43:02Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="32367" started-at="2017-07-31T03:18:26Z" finished-at="2017-07-31T03:18:58Z">
-      <class name="TestNG_framwork.JavaScriptEXE">
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG_framwork.JavaScriptEXE@18cbb65]" name="beforeClass" is-config="true" duration-ms="2159" started-at="2017-07-31T11:18:44Z" finished-at="2017-07-31T11:18:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="JavaScriptOperate()[pri:0, instance:TestNG_framwork.JavaScriptEXE@18cbb65]" name="JavaScriptOperate" duration-ms="8488" started-at="2017-07-31T11:18:46Z" finished-at="2017-07-31T11:18:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- JavaScriptOperate -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG_framwork.JavaScriptEXE@18cbb65]" name="afterClass" is-config="true" duration-ms="3321" started-at="2017-07-31T11:18:55Z" finished-at="2017-07-31T11:18:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterClass -->
-      </class> <!-- TestNG_framwork.JavaScriptEXE -->
-      <class name="TestNG_framwork.DataProviderExe">
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="beforeMethod" is-config="true" duration-ms="2784" started-at="2017-07-31T11:18:26Z" finished-at="2017-07-31T11:18:29Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="f" duration-ms="3786" started-at="2017-07-31T11:18:29Z" data-provider="dp" finished-at="2017-07-31T11:18:32Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[selenium]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="afterMethod" is-config="true" duration-ms="3455" started-at="2017-07-31T11:18:32Z" finished-at="2017-07-31T11:18:36Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="beforeMethod" is-config="true" duration-ms="1646" started-at="2017-07-31T11:18:36Z" finished-at="2017-07-31T11:18:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method status="PASS" signature="f(java.lang.String)[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="f" duration-ms="3107" started-at="2017-07-31T11:18:37Z" data-provider="dp" finished-at="2017-07-31T11:18:41Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[other]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterMethod()[pri:0, instance:TestNG_framwork.DataProviderExe@6d346c]" name="afterMethod" is-config="true" duration-ms="3580" started-at="2017-07-31T11:18:41Z" finished-at="2017-07-31T11:18:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-      </class> <!-- TestNG_framwork.DataProviderExe -->
-      <class name="TestNG_framwork.suiteApply">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestNG_framwork.suiteApply@7fadd3]" name="beforeTest" is-config="true" duration-ms="10" started-at="2017-07-31T11:18:26Z" finished-at="2017-07-31T11:18:26Z">
+    <test name="Test" duration-ms="30" started-at="2017-08-13T17:43:02Z" finished-at="2017-08-13T17:43:02Z">
+      <class name="TestAnt.BuildAnt">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:TestAnt.BuildAnt@1971f66]" name="beforeTest" is-config="true" duration-ms="10" started-at="2017-08-14T01:43:02Z" finished-at="2017-08-14T01:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="f()[pri:0, instance:TestNG_framwork.suiteApply@7fadd3]" name="f" duration-ms="0" started-at="2017-07-31T11:18:58Z" finished-at="2017-07-31T11:18:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- f -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestNG_framwork.suiteApply@7fadd3]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-07-31T11:18:58Z" finished-at="2017-07-31T11:18:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestNG_framwork.suiteApply@7fadd3]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-07-31T11:18:58Z" finished-at="2017-07-31T11:18:58Z">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestAnt.BuildAnt@1971f66]" name="beforeClass" is-config="true" duration-ms="0" started-at="2017-08-14T01:43:02Z" finished-at="2017-08-14T01:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestNG_framwork.suiteApply@7fadd3]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-07-31T11:18:58Z" finished-at="2017-07-31T11:18:58Z">
+        <test-method status="PASS" signature="f()[pri:0, instance:TestAnt.BuildAnt@1971f66]" name="f" duration-ms="0" started-at="2017-08-14T01:43:02Z" finished-at="2017-08-14T01:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestAnt.BuildAnt@1971f66]" name="afterClass" is-config="true" duration-ms="0" started-at="2017-08-14T01:43:02Z" finished-at="2017-08-14T01:43:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterClass -->
-      </class> <!-- TestNG_framwork.suiteApply -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:TestAnt.BuildAnt@1971f66]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-08-14T01:43:02Z" finished-at="2017-08-14T01:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestAnt.BuildAnt -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
