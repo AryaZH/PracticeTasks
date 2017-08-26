@@ -46,7 +46,6 @@ public class AddUpdateDelete_ManageSystem {
 	public void locateSpan() {
 		driver.switchTo().frame("main").findElement(By.cssSelector("span[class='menu-selected-item']+span")).click();
 		driver.switchTo().defaultContent();
-		System.out.println("tesst");
 	}
 
 	public String Add() {
@@ -63,7 +62,7 @@ public class AddUpdateDelete_ManageSystem {
 				continue;
 			WebDriver window = driver.switchTo().window(handle);
 			Log.getLogger("title,url = " + (window).getTitle() + "," + window.getCurrentUrl());
-
+		
 			WebElement W = driver.findElement(By.id("record:useruuid"));
 			userid = getRandomString(5);
 			W.sendKeys(userid);
