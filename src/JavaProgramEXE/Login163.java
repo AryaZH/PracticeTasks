@@ -26,7 +26,7 @@ public class Login163 {
 	    driver.findElement(By.xpath("//*[@id='account-box']/div/input")).sendKeys("test");
 	    driver.findElement(By.xpath(".//*[@class='u-input box']/input[@name='password']")).sendKeys("test");
 	    
-		//driver.quit();
+		driver.quit();
 	}
 
 }
