@@ -17,8 +17,8 @@ public class Date_Operate {
 
 		//second way
 		Calendar cal2= Calendar.getInstance();
-		SimpleDateFormat f = new SimpleDateFormat("yyyyMMdd");
-		System.out.println(f.format(cal2.getTime()));
+		SimpleDateFormat f = new SimpleDateFormat("yyyy-MM-dd");
+		System.out.println(f.format(cal2.getTime()).getClass());
 		
 	}
 
