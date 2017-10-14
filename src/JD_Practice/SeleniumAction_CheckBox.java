@@ -4,7 +4,6 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,9 +28,11 @@ public class SeleniumAction_CheckBox {
 
 		List<WebElement> CheckBoxList = dr.findElements(By.xpath("//div[@id='J_feature']/ul/li/a"));
 		for(WebElement checkbox : CheckBoxList) {
+			String currentWindow = driver.getWindowHandle();
+			
 			System.out.println(checkbox.getText());
 			checkbox.click();
-			//switchToNewWindow(dr);
+
 		}
 	}
 	
